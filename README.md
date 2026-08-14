@@ -2,7 +2,7 @@
 
 Declarative configuration of Balatro mods using Nix.
 
-It's not really usable at the moment due to the number of mods available but feel free to add them to `pkgs/mods.nix`!
+It's a demo but it's probably very broken! Some mods have trouble loading from a read-only file system that uses symlinks. And it seems like a lot assume that the configuration folder is the parent directory of `LOVELY_MOD_DIR`, which is read-only as well so all mods config probably doesn't work.
 
 ## Nixpkgs
 
