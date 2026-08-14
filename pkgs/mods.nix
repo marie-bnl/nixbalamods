@@ -57,4 +57,14 @@
     tag = "1.0.0-beta-1814a";
     hash = "sha256-5chUzZSfUDUqtlMzSdSa1fZRHOPvRIdwHnKK83f4ecs=";
   };
+
+  trance =
+    builtins.warn "Trance will probably not work (see https://github.com/marie-bnl/nixbalamods/issues/2)"
+    fetchFromGitHub {
+      name = "trance";
+      owner = "SpectralPack";
+      repo = "Trance";
+      rev = "3f86c2e";
+      hash = "sha256-rwWRqmTYTctRatI2MEUTiWOrxTli/1XtCYIBkhpbsgg=";
+    };
 }
