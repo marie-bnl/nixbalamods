@@ -2,7 +2,7 @@
 
 Declarative configuration of Balatro mods using Nix.
 
-It's a demo but it's probably very broken! Some mods have trouble loading from a read-only file system that uses symlinks. And it seems like a lot assume that the configuration folder is the parent directory of `LOVELY_MOD_DIR`, which is read-only as well so all mods config probably doesn't work.
+It's a demo but it's probably very broken! Some mods have trouble loading from a read-only file system that uses symlinks. And it seems like a lot assume that the configuration folder is the parent directory of `LOVELY_MOD_DIR`, which is read-only as well so all mods config probably don't work.
 
 ## Nixpkgs
 
