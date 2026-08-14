@@ -10,6 +10,14 @@
     hash = "sha256-VN/n4Hotvlejs/jn+EOFJ6r7o7cSWtHJBEJdBly5oRA=";
   };
 
+  cryptid = fetchFromGitHub {
+    name = "cryptid";
+    owner = "SpectralPack";
+    repo = "Cryptid";
+    tag = "v0.5.16d";
+    hash = "sha256-DS6uiCopMQznib1Wx0XjVKpb8iwmbg7iKic9FhjTo1A=";
+  };
+
   multiplayer = fetchFromGitHub {
     name = "multiplayer";
     owner = "Balatro-Multiplayer";
