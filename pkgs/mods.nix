@@ -26,6 +26,16 @@
     hash = "sha256-uYUJbIjQaztSqEQLybTTt3xi+aRg/cI5+BqNRU+ZdN0=";
   };
 
+  saturn =
+    builtins.warn "Saturn will probably not work (see https://github.com/marie-bnl/nixbalamods/issues/1)"
+    fetchFromGitHub {
+      name = "saturn";
+      owner = "OceanRamen";
+      repo = "Saturn";
+      tag = "alpha-0.2.2-E-qf3";
+      hash = "sha256-0llBmDtGtMYYCsitZigrUtraaJB0NZtpxn7ELeZHBqc=";
+    };
+
   smods = fetchFromGitHub {
     name = "smods";
     owner = "Steamodded";
