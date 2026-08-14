@@ -18,6 +18,20 @@
     hash = "sha256-DS6uiCopMQznib1Wx0XjVKpb8iwmbg7iKic9FhjTo1A=";
   };
 
+  jjbatarot = fetchzip {
+    name = "jjbatarot";
+    url = "https://filecache40.gamebanana.com/mods/jjbatarot_0434e.zip";
+    hash = "sha256-gyPdkUnhX816xyxZ3Ll0CK+nhquD+rgCeZCpyFG9upM=";
+  };
+
+  malverk = fetchFromGitHub {
+    name = "malverk";
+    owner = "Eremel";
+    repo = "Malverk";
+    tag = "v1.1.5";
+    hash = "sha256-T2xL6gSS/GPXOiHRTwsbW/S/XksXukZiUT+HYws0qHE=";
+  };
+
   multiplayer = fetchFromGitHub {
     name = "multiplayer";
     owner = "Balatro-Multiplayer";
