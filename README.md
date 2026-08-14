@@ -4,10 +4,6 @@ Declarative configuration of Balatro mods using Nix.
 
 It's a demo but it's probably very broken! Some mods have trouble loading from a read-only file system that uses symlinks. And it seems like a lot assume that the configuration folder is the parent directory of `LOVELY_MOD_DIR`, which is read-only as well so all mods config probably don't work.
 
-## Nixpkgs
-
-Ideally this should be in nixpkgs, but I'm too lazy to make a PR. It shouldn't take long if you're familiar with the nixpkgs codebase though. Plus this repo is currently less than 100 lines of code.
-
 ## Usage
 
 You can test the project by writing the following flake (Balatro.exe needs to be in the same directory)
